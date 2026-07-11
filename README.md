@@ -126,8 +126,5 @@ npm run demo   # Create sample assigned tasks
 - Filters on volunteer history allow viewing by **category** or **date range**.  
 - GitHub Actions CI ensures build & test integrity before merges.  
 
----
-
-##  Contributors  
-Developed by Martyn Kentjana, Szetrong Sangrung, Wong Chun Fei  and team  
+--- 
   
