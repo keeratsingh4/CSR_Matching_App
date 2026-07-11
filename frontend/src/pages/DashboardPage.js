@@ -77,7 +77,7 @@ export default function DashboardPage() {
             animation: "fadeIn 0.3s ease-in-out",
           }}
         >
-          <strong>📢 Announcement:</strong> {notification.message}
+          <strong>Announcement:</strong> {notification.message}
           {notification.createdBy?.name && (
             <span
               style={{
