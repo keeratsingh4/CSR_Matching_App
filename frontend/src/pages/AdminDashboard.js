@@ -72,7 +72,7 @@ export default function AdminDashboard() {
 
     try {
       await broadcastNotification(broadcastMsg, expiresAt, getAuthHeader());
-      alert("📢 Broadcast sent successfully!");
+      alert("Broadcast sent successfully!");
       setBroadcastMsg("");
       setExpiresAt("");
     } catch (err) {
