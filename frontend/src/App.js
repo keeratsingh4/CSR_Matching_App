@@ -17,7 +17,7 @@ import TaskCompletionPage from './pages/TaskCompletionPage';
 import VolunteerHistoryPage from './pages/VolunteerHistoryPage';
 import CSRDashboard from './pages/CSRDashboard';
 
-// ✅ New CSR Pages
+// New CSR Pages
 import CsrVerifyHoursPage from './pages/CsrVerifyHoursPage';
 import CsrReportsPage from './pages/CsrReportsPage';
 
