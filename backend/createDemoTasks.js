@@ -1,8 +1,3 @@
-/**
- * Create demo tasks for CV-01 / CV-05 use case demonstration
- * Generates 3 pre-assigned tasks for Volunteer 1
- */
-
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const User = require('./models/User');
