@@ -1,0 +1,23 @@
+/*  Global styling for your CSR Matching App */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+  color: #007bff;
+}
+
+button {
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+  transform: scale(1.03);
+  background-color: #0069d9 !important;
+}
