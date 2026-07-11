@@ -30,7 +30,7 @@ const VolunteerHistoryPage = () => {
       setHistory(data);
       setFilteredHistory(data);
 
-      // ✅ Only sum verified & non-disputed hours
+      // Only sum verified & non-disputed hours
       const total = data.reduce(
         (sum, item) =>
           sum +
@@ -75,7 +75,7 @@ const VolunteerHistoryPage = () => {
 
     setFilteredHistory(filtered);
 
-    // ✅ Only verified + non-disputed count toward total
+    // Only verified + non-disputed count toward total
     const total = filtered.reduce(
       (sum, item) =>
         sum +
@@ -91,7 +91,7 @@ const VolunteerHistoryPage = () => {
     setFilters({ category: '', from: '', to: '' });
     setFilteredHistory(history);
 
-    // ✅ Recalculate verified total hours
+    // Recalculate verified total hours
     const total = history.reduce(
       (sum, item) =>
         sum +
@@ -160,13 +160,13 @@ const VolunteerHistoryPage = () => {
           <p>Completed Tasks</p>
         </div>
 
-        {/* ✅ Verified total hours only */}
+        {/* Verified total hours only */}
         <div style={styles.statCard}>
           <h3>{totalHours.toFixed(1)}</h3>
           <p>Verified Total Hours</p>
         </div>
 
-        {/* ✅ Show total verified logs (count) */}
+        {/* Show total verified logs (count) */}
         <div style={styles.statCard}>
           <h3>
             {filteredHistory.filter(
